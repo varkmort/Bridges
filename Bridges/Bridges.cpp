@@ -1,4 +1,6 @@
 ﻿#include <iostream>
+#include <typeinfo>
+
 
 #include "Color.hpp"
 
@@ -14,11 +16,23 @@
 //class Frame;
 //class Game;
 
+
+
+//class Demo{
+//public:
+//    Demo operator++();
+//    Demo operator++(int);
+//    friend std::ostream& operator<<(
+//        std::ostream& out,
+//        const Demo& obj);
+//};
+
 int main()
 {
     Color red(255, 0, 0);
     Color green(0, 255, 0);
     if (red == green) {
-        std::cout << "came color";
+        std::cout << "same color\n";
     }
+
 }

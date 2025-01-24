@@ -130,11 +130,18 @@
     <ClCompile Include="Bridges.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Form.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Toy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Color.hpp" />
     <ClInclude Include="Form.hpp" />
+    <ClInclude Include="Frame.hpp" />
+    <ClInclude Include="Game.hpp" />
     <ClInclude Include="Toy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

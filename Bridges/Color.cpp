@@ -29,3 +29,8 @@ bool Color::operator==(const Color& other) const
 		green_ == other.green_ && 
 		blue_ == other.blue_;
 }
+
+std::ostream& operator<<(std::ostream& out, const Color& obj)
+{
+	return out << obj.GetHexCode();
+}
