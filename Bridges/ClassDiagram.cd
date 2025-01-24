@@ -31,13 +31,6 @@
       <FileName>Frame.hpp</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game">
-    <Position X="3.25" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Game.hpp</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Toy">
     <Position X="6.75" Y="1" Width="1.5" />
     <TypeIdentifier>
