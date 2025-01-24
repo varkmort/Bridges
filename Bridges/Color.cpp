@@ -19,8 +19,11 @@ void Color::SetColor(int red, int green, int blue)
 
 std::string Color::GetHexCode() const
 {
-	//сделаем позже
-	return std::string();
+	std::string result{ "#" };
+	result += std::to_string(red_);
+	result += std::to_string(green_);
+	result += std::to_string(blue_);
+	return result;
 }
 
 bool Color::operator==(const Color& other) const
@@ -32,5 +35,6 @@ bool Color::operator==(const Color& other) const
 
 std::ostream& operator<<(std::ostream& out, const Color& obj)
 {
-	return out << obj.GetHexCode();
+	out << obj.GetHexCode();
+	return out;
 }

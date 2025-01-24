@@ -46,7 +46,7 @@ bool operator==(const Toy& a, const Toy& b)
 
 std::ostream& operator<<(std::ostream& out, const Toy& obj)
 {
-	return out << obj.name_ << ' ' << obj.color_ << obj.form_;
+	return out << obj.name_ << ' ' << obj.color_ << ' ' << obj.form_;
 }
 
 

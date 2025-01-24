@@ -1,30 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Color">
-    <Position X="1.75" Y="0.75" Width="1.5" />
+    <Position X="5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAABAAABAQAAAAAAAAAAAAgAgAAAAEA=</HashCode>
+      <HashCode>EAAAAAAAAAAAAAABAAABAQAAAAAQAAAAAAgAgAAAAEA=</HashCode>
       <FileName>Color.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Form">
-    <Position X="3.75" Y="0.75" Width="1.5" />
+    <Position X="8.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <NestedTypes>
-      <Enum Name="Form::Forms" Collapsed="true">
+      <Enum Name="Form::Forms">
         <TypeIdentifier>
           <NewMemberFileName>Form.hpp</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEABAA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAQAAAgAAAAEAAAAAAAEABAA=</HashCode>
       <FileName>Form.hpp</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Toy">
-    <Position X="1.75" Y="3.5" Width="1.5" />
+  <Class Name="Frame">
+    <Position X="10.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAACAAAEAEAAAAQAAAAAAAAAAAAE=</HashCode>
+      <FileName>Frame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Toy">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAEAAIAwCAAAgAQAAAJAA=</HashCode>
       <FileName>Toy.hpp</FileName>
     </TypeIdentifier>
   </Class>

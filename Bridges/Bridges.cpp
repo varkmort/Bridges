@@ -3,29 +3,14 @@
 
 
 #include "Color.hpp"
-
+#include "Toy.hpp"
 // Мосты
 // паттерн служит для объединения разных семейств наследования
 // для совместной работы по общему свойству
 // 
 // 
 
-//class Form;
-//class Color;
-//class Toy;
-//class Frame;
-//class Game;
 
-
-
-//class Demo{
-//public:
-//    Demo operator++();
-//    Demo operator++(int);
-//    friend std::ostream& operator<<(
-//        std::ostream& out,
-//        const Demo& obj);
-//};
 
 int main()
 {
@@ -34,5 +19,8 @@ int main()
     if (red == green) {
         std::cout << "same color\n";
     }
+    std::cout << red;
+    Toy q{ "fluffy",Color(128,128,128),Form::Forms::Octogone};
 
+    std::cout << "\n" << q << '\n';
 }
